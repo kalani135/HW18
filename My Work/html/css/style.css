@@ -30,40 +30,49 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    margin: 100px auto;
     gap: 20px;
   }
   
   
   .myDiv {
+    display: flex;
     flex: 1;
-    padding: 20px;
-    border: 1px solid #000;
+    padding: 10px;
     background-color: #f0f0f0;
-    text-align: center;
+    align-items: center;
     cursor: pointer;
   }
   
-  .projectImage {
-   image-orientation: left;
-  }
   
+  .projectImage {
+    float: center;
+   padding: 10px;
+  }
+
+  .projectImagensa {
+    float: left;
+   margin-left: 87px;
+   margin-right: 85px;
+  }
+
+
+  .text h2 {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .text p {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 25px;
+    width: 250px;
+  }
   
   .myDiv:hover {
     background-color: #ddd;
   }
-  
-  
-  h2 {
-    font-size: 18px;
-    margin: 5px;
-  }
-  
-  
-  p {
-    font-size: 14px;
-    margin: 5px;
-  }
-  
+   
   
   button {
     padding: 5px 10px;
@@ -71,6 +80,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-left: 15px;
   }
   
   
