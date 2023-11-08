@@ -1,0 +1,115 @@
+body { 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .header {
+    width: 100%;
+    background-color: rgb(29, 31, 34);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px;
+    position: relative;
+  }
+  
+  
+  .header-logo {
+    position: absolute;
+    top: 0;
+    left: 40px; /* Adjust the left position as needed */
+    z-index: 1;
+    width: 80px; /* Adjust the width as needed */
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    gap: 20px;
+  }
+  
+  
+  .myDiv {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  
+  .projectImage {
+    float: center;
+   padding: 10px;
+  }
+
+  .projectImagensa {
+    float: left;
+   margin-left: 87px;
+   margin-right: 85px;
+  }
+
+
+  .text h2 {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .text p {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 25px;
+    width: 250px;
+  }
+  
+  .myDiv:hover {
+    background-color: #ddd;
+  }
+   
+  
+  button {
+    padding: 5px 10px;
+    background-color: #414549;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .menu {
+    width: 100%;
+    background-color: rgb(29, 31, 34);
+    justify-content: space-between; /* Spread the menu items to the full width */
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+    margin: 20px;
+   
+  }
+  
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 20px;
+  }
+  
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
